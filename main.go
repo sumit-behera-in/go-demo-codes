@@ -118,7 +118,7 @@ func main() {
 
 // func Op(name int) int {
 // 	return name * 100
-// }
+//  }
 
 func remain(a chan int, i int) {
 	a <- i % 2
